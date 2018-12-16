@@ -1,0 +1,156 @@
+[
+
+  {
+    "name": "Unarmed",
+    "type": "Martial",
+    "description": "description",
+    "default": "U"
+  },
+
+  {
+    "name": "Firearms",
+    "type": "Martial",
+    "description": "description",
+    "default": "U"
+  },
+
+   {
+    "name": "Artillery",
+    "type": "Martial",
+    "description": "description",
+    "default": "X"
+  },
+
+
+  {
+    "name": "Channelling",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Enchanting",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+  {
+    "name": "Summoning",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+  {
+    "name": "Bardic",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+  {
+    "name": "Divine",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Bloom",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Wolf",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Forge",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Hearth",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Ember",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Death",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+  {
+    "name": "Tempest",
+    "type": "Magical",
+    "description": "description",
+    "default": "X"
+  },
+
+
+   {
+    "name": "Arcana",
+    "type": "Knowledge",
+    "description": "description",
+    "default": "X"
+  },
+
+   {
+    "name": "Local",
+    "type": "Knowledge",
+    "description": "description",
+    "default": "U"
+  },
+
+  {
+    "name": "History",
+    "type": "Knowledge",
+    "description": "description",
+    "default": "U"
+  },
+
+    {
+    "name": "Geography",
+    "type": "Knowledge",
+    "description": "description",
+    "default": "U"
+  },
+
+  {
+    "name": "Medical",
+    "type": "Vocational",
+    "description": "description",
+    "default": "U"
+  },
+
+  {
+    "name": "Mechanic",
+    "type": "Vocational",
+    "description": "description",
+    "default": "U"
+  },
+
+  {
+    "name": "Insight",
+    "type": "Social",
+    "description": "description",
+    "default": "U"
+  }
+
+]
