@@ -15,25 +15,34 @@ class CharBuilder:
 
         logging.info('Loading Races...')
         raceJSON = json.load(open("data/default/races.json"))
-        self.races = list()
+        races = list()
         for race in raceJSON:
-            self.races.append(Race(race))
+            races.append(Race(race))
+        self.races = {race.name:race for race in races}
         logging.info(f"Loaded {len(self.races)} races.")
 
         logging.info('Loading Skills...')
-        self.skills = list()
+        skills = list()
         skillJSON = json.load(open('data/default/skills.json'))
         for skill in skillJSON:
-            self.skills.append(Skill(skill))
+            skills.append(Skill(skill))
+
+        self.skills = {skill.name:skill for skill in skills}
         logging.info(f'Loaded {len(self.skills)} skills.')
 
-        self.skills.sort(key= lambda x: (x.type, x.name))
-        currType = ""
-        for skill in self.skills:
-            if currType != skill.type:
-                currType = skill.type
-                logging.info(f"{currType} skills:")
-            logging.info(f'\t{skill}')
+
+
+        logging.info('Loading Traits...')
+        traits = list()
+        traitJSON = json.load(open('data/default/traits.json'))
+        for trait in traitJSON:
+            traits.append(Trait(trait))
+
+
+        self.traits = {x.id:x for x in traits}
+
+        logging.info(f'Loaded {len(self.traits)} traits.')
+
 
 
 class Race:
@@ -66,12 +75,20 @@ class Skill:
         return f"{self.name} ({self.default_rank.name})"
 
 
+class Trait:
+
+    def __init__(self, j):
+        self.name = j['name']
+        self.id = j['id']
+        self.type = j['type']
+        self.description = j['description']
+
+
+
 class Ability:
     pass
 
 
-class Trait:
-    pass
 
 class Rank(IntEnum):
     A = 5

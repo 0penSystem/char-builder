@@ -1,0 +1,39 @@
+[
+
+
+  {
+    "name": "Dragonwing",
+    "id": "dragonwing",
+    "type": "Racial",
+    "description": "Your leathery wings spring from your back, built to carry you aloft. (Flying speed equal to normal speed?)"
+  },
+
+    {
+    "name": "Dragonscale",
+    "id": "dragonscale",
+    "type": "Racial",
+    "description": "Your body is coated in a lustrous set of scales. (Defense Increase)"
+  },
+
+    {
+    "name": "Dragonclaw",
+    "id": "dragonclaw",
+    "type": "Racial",
+    "description": "Your hands and feet end in sharp claws, designed to rip the flesh of your enemies. (Unarmed attack with claws...)"
+  },
+
+    {
+    "name": "Imperious Size",
+    "id": "imperious_size",
+    "type": "Racial",
+    "description": "Dragonfolk are the tallest and largest of the races."
+  },
+
+    {
+    "name": "Hoarding Instinct",
+    "id": "hoarding_instinct",
+    "type": "Racial",
+    "description": "At some point in a dragonfolk's early life, they develop an attachement to something and begin hoarding it. This instinct can be fought but typically isn't. (The character has a hoard of something (gold, jewels, shiny rocks, furniture, friends, etc.) and will attempt to obtain more when they see the chance.)"
+  }
+
+]

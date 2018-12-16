@@ -47,7 +47,7 @@
     "name": "Dragonfolk",
     "description": "Description goes here.",
     "deity": "Tempest",
-    "traits":["trait1","trait2","trait3","trait4","trait5"]
+    "traits":["dragonwing","dragonclaw","dragonscale","imperious_size","hoarding_instinct"]
   }
 
 ]
