@@ -1,0 +1,53 @@
+[
+
+  {
+    "name": "Sylvan",
+    "description": "Description goes here.",
+    "deity": "Bloom",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+  {
+    "name": "Beastkin",
+    "description": "Description goes here.",
+    "deity": "Wolf",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+  {
+    "name": "Dwarf",
+    "description": "Description goes here.",
+    "deity": "Forge",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+   {
+    "name": "Human",
+    "description": "Description goes here.",
+    "deity": "Hearth",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+   {
+    "name": "Aetherfolk",
+    "description": "Description goes here.",
+    "deity": "Ember",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+
+   {
+    "name": "Corvid",
+    "description": "Description goes here.",
+    "deity": "Death",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  },
+
+   {
+    "name": "Dragonfolk",
+    "description": "Description goes here.",
+    "deity": "Tempest",
+    "traits":["trait1","trait2","trait3","trait4","trait5"]
+  }
+
+]
